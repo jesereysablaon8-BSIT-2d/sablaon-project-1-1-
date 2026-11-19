@@ -143,3 +143,12 @@ footer {
         height: 230px;
     }
 }
+
+.profile-img {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #080914;
+    display: block;
+}
