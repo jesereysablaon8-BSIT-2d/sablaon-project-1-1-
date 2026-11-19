@@ -1,90 +1,111 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jeserel | Personal Portfolio</title>
-    <link rel="stylesheet" href="assets/styles/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Jeserey Sabla-on, a second-year BSIT student.">
+  <title>Jeserey Sabla-on | Personal Portfolio</title>
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-
-<header>
-    <h2 class="logo">JESEREL.</h2>
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+  <header class="site-header">
+    <a class="logo" href="#home">J<span>.</span>SABLA-ON</a>
+    <nav aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
     </nav>
-</header>
+  </header>
 
-<section id="home" class="hero">
-    <div>
-        <p>Hello, I'm</p>
-        <h1>Jeserel B. Sabla-on</h1>
-        <h2>BSIT Student</h2>
-        <p>
-            Welcome to my personal portfolio!
-            I am passionate about technology,
-            programming, and web development.
-        </p>
-        <a href="#about" class="btn">Explore My Portfolio</a>
-    </div>
-
-    <img src="assets/profile.jpg" alt="My Profile Picture">
-</section>
-
-<section id="about">
-    <h2>About Me</h2>
-    <p>
-        I am a Bachelor of Science in Information
-        Technology student at Kabankalan Catholic
-        College, Inc. I am interested in learning
-        new technologies, developing websites,
-        and improving my programming skills.
-    </p>
-</section>
-
-<section id="skills">
-    <h2>My Skills</h2>
-    <div class="cards">
-        <div class="card">HTML</div>
-        <div class="card">CSS</div>
-        <div class="card">PHP</div>
-        <div class="card">Computer Troubleshooting</div>
-        <div class="card">Basic Networking</div>
-    </div>
-</section>
-
-<section id="projects">
-    <h2>My Projects</h2>
-    <div class="cards">
-        <div class="card">
-            <h3>Personal Portfolio</h3>
-            <p>My personal website using HTML and CSS.</p>
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">HELLO, WORLD! I'M</p>
+        <h1>Jeserey <span>Sabla-on</span></h1>
+        <h2>BSIT 2nd Year Student</h2>
+        <p class="intro">I am an Information Technology student who enjoys learning about computers, technology, and web development. I am building my skills one project at a time.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View My Work</a>
+          <a class="btn secondary" href="#contact">Contact Me</a>
         </div>
-        <div class="card">
-            <h3>PHP CRUD System</h3>
-            <p>A data management system using PHP and JSON.</p>
+      </div>
+      <div class="profile-wrap">
+        <div class="profile-glow">
+          <div class="profile-placeholder" aria-label="Profile photo placeholder">
+            <span>JS</span>
+            <small>ADD YOUR PHOTO</small>
+          </div>
         </div>
-        <div class="card">
-            <h3>Computer Solutions</h3>
-            <p>A website presenting computer repair and IT services.</p>
+        <p class="profile-caption">Future IT Professional <span>✦</span></p>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2>About <span>Me</span></h2>
+      </div>
+      <div class="about-card">
+        <p>My name is <strong>Jeserey Sabla-on</strong>, and I am a second-year Bachelor of Science in Information Technology (BSIT) student. I am interested in technology and enjoy exploring how computers, software, and websites work.</p>
+        <p>My goal is to improve my technical knowledge, gain practical experience, and become a skilled IT professional. I believe that every project is an opportunity to learn something new.</p>
+        <div class="info-grid">
+          <div><small>COURSE</small><strong>BS Information Technology</strong></div>
+          <div><small>YEAR LEVEL</small><strong>2nd Year College</strong></div>
+          <div><small>INTEREST</small><strong>Web & Computer Technology</strong></div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<section id="contact">
-    <h2>Contact Me</h2>
-    <p>Email: your-email@example.com</p>
-    <p>Location: Philippines</p>
-</section>
+    <section class="section" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">WHAT I'M LEARNING</p>
+        <h2>My <span>Skills</span></h2>
+      </div>
+      <div class="skill-grid">
+        <article class="skill-card"><div class="skill-icon">⌘</div><h3>HTML</h3><p>Creating the structure and content of web pages.</p></article>
+        <article class="skill-card"><div class="skill-icon">✦</div><h3>CSS</h3><p>Styling websites with layouts, colors, and responsive design.</p></article>
+        <article class="skill-card"><div class="skill-icon">▣</div><h3>Computer Troubleshooting</h3><p>Learning to identify and solve basic computer problems.</p></article>
+        <article class="skill-card"><div class="skill-icon">◉</div><h3>Basic Networking</h3><p>Understanding network connections and basic setup.</p></article>
+      </div>
+    </section>
 
-<footer>
-    <p>© 2026 Jeserel B. Sabla-on | Personal Portfolio</p>
-</footer>
+    <section class="section" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">SOME THINGS I'VE WORKED ON</p>
+        <h2>My <span>Projects</span></h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-art art-one"><span>01</span><b>WEB DESIGN</b></div>
+          <div class="project-content"><h3>Personal Portfolio</h3><p>A personal website built with HTML and CSS to introduce myself, my skills, and my projects.</p><span class="tag">HTML · CSS</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-art art-two"><span>02</span><b>COMPUTER CARE</b></div>
+          <div class="project-content"><h3>Computer Troubleshooting</h3><p>A learning project focused on identifying common computer issues and basic troubleshooting steps.</p><span class="tag">IT SUPPORT</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-art art-three"><span>03</span><b>SECURITY</b></div>
+          <div class="project-content"><h3>CCTV Installation</h3><p>A project description about learning the basic setup and installation of CCTV equipment.</p><span class="tag">HARDWARE</span></div>
+        </article>
+      </div>
+      <p class="note">Tip: Replace or update these sample projects with your actual school projects and add screenshots in the assets folder.</p>
+    </section>
 
+    <section class="section contact-section" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Contact <span>Me</span></h2>
+      </div>
+      <div class="contact-card">
+        <p>Have a question or want to connect? Send me a message.</p>
+        <p><strong>Email:</strong> <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+        <p class="note">Replace the sample email above with your real email address before publishing.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer><p>© 2026 Jeserey Sabla-on | Personal Portfolio</p><a href="#home">Back to top ↑</a></footer>
 </body>
 </html>

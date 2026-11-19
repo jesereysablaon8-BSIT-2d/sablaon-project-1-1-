@@ -1,0 +1,1 @@
+Place your profile picture and project screenshots in this folder. To use a real profile image, replace the profile-placeholder block in index.html with an img element and set its src to assets/your-photo.jpg.
